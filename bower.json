@@ -1,0 +1,9 @@
+{
+  "name": "merlin-chrome-extension",
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore": "latest",
+    "backbone": "latest",
+    "jquery": "latest"
+  }
+}

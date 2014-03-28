@@ -1,0 +1,11 @@
+{
+  "name": "merlin-chrome-extension",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt-cli": "latest",
+    "bower": "1.2.7",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-less": "latest"
+  }
+}

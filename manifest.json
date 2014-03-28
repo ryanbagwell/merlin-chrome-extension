@@ -1,0 +1,25 @@
+{
+  "name": "Merlin project management tasks",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "A Chrome extension for the Merlin project management server that allows you to view assigned tasks",
+  "browser_action": {
+    "default_icon": {
+      "19":"img/icon.logo.19px.png",
+      "38":"img/icon.logo.38px.png"
+    },
+    "default_title": "Merlin tasks",
+    "name": "Merlin tasks",
+    "default_popup": "app/main.html"
+  },
+  "options_page": "app/options.html",
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs",
+        "notifications"
+    ],
+    "web_accessible_resources": [
+      "app/static/*",
+    ]
+}
